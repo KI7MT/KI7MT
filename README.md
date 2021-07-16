@@ -8,7 +8,7 @@
 
 ## About
 
-I'm an avid supporter of [Open Source Software][] and like working with most any flavor Linux / BSD / UX. I've been a Linux user dating back to the early [Slackware][] days. I've used Ubuntu since ~2005 ([5.04][]), [Ubuntu Member][] since 2013-ish, and [Launchpad Package Maintainter][] (off and on) since  2010. Over the years I've also used Red Hat, Fedora, CentOS. Currently using [Ubuntu 20.04][] as my home workstation, [Pop\!_OS][] for gaming, and [Oracle Linux][] (descendant of [RHEL][]) for enterprise work. I also have a fondness for rolling distributions such as [Arch][] and [Gentoo][]. [Alpine][] is my go-to distribution for most things container related, unless there is a reason to go in a different direction. Basically, I just like Linux, in any flavor !!
+I'm an avid supporter of [Open Source Software][] and like working with most any flavor Linux / BSD / UX. I've been a Linux user dating back to the early [Slackware][] days. I've used Ubuntu since ~2005 ([5.04][]), [Ubuntu Member][] since 2013-ish, and [Launchpad Package Maintainter][] (off and on) since  2010. Over the years I've also used Red Hat, Fedora, CentOS. Currently using [Ubuntu 20.04][] as my home workstation, [Pop\!_OS][] for gaming, and [Oracle Linux][] (descendant of [RHEL][]) for enterprise work. I also have a fondness for rolling distributions such as [Arch][] and [Gentoo][]. [Alpine][] is my go-to distribution for most things container related, unless there is a reason to go in a different direction. Basically, I just like Linux, of any flavor !!
 
 ## Development Focus
 
