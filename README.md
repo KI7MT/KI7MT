@@ -3,8 +3,8 @@
 ![Python](https://img.shields.io/badge/Python-Advanced-teal?style=flat-square)
 ![CSharp](https://img.shields.io/badge/CSharp-Intermediate-ffea00?style=flat-square)
 ![Java](https://img.shields.io/badge/Java-Intermediate-ffea00?style=flat-square)
-![Go](https://img.shields.io/badge/Go-Working-orange?style=flat-square)
-![Scala](https://img.shields.io/badge/Scala-Working-orange?style=flat-square)
+![Go](https://img.shields.io/badge/Go-Learning-orange?style=flat-square)
+![Scala](https://img.shields.io/badge/Scala-Learning-orange?style=flat-square)
 
 ## About
 
