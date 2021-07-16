@@ -10,10 +10,6 @@
 
 I'm an avid supporter of [Open Source Software][] and like working with most any flavor Linux / BSD / UX. I've been a Linux user dating back to the early [Slackware][] days. I've used Ubuntu since ~2005 ([5.04][]), [Ubuntu Member][] since 2013-ish, and [Launchpad Package Maintainter][] (off and on) since  2010. Over the years I've also used Red Hat, Fedora, CentOS. Currently using [Ubuntu 20.04][] as my home workstation, [Pop\!_OS][] for gaming, and [Oracle Linux][] (descendant of [RHEL][]) for enterprise work. I also have a fondness for rolling distributions such as [Arch][] and [Gentoo][]. [Alpine][] is my go-to distribution for most things container related, unless there is a reason to go in a different direction. Basically, I just like Linux, in any flavor !!
 
-## Home Lab
-
-My current home-lab consists of a 16 core/32 thread virtualization node, and a few smaller 4 core/8 thread AMD V1605B SoC's ([GB-BSRE-1605][]) clusterd with the Type-1 Hypervisor [Proxmox][]. The network stack is fairly simple employing a Dual-WAN failover via [Netgate 3100][] and [pfSense][]. Core distribution is through a [USW-PRO-24 PoE][]. A 10GB aggregation switch ([US-XG-16][]) is used for wiring up storage and virtualization. Several smaller PoE switches power Wireless AP's, cameras, printers, IoT devices, etc. Network storage is [TrueNAS Core][] on a high-speed 14TB ZFS pool. For future storage and backup, I'm looking at the [Synology RS2421][] or the [iX-Systems][] [ix-1212i][], but that could change. 
-
 ## Development Focus
 
 My current language focus is on [Golang][] as a replacement for console scripts. I like using [Scala][], [Spark][], [PySpark][] and [Apache Arrow][] when playing  with Big Data. Cloud based tools of interest are centered on [Oracle Cloud Infastructure (OCI)], [GraalVM], [Micronaut], [Kubernetes][], and [Nomad][] using [Docker][] or [LXC][] containers. I've rescently started learning / testing High-Availability discovery and secrets management using [Vault][] and [Consul][].
@@ -21,6 +17,10 @@ My current language focus is on [Golang][] as a replacement for console scripts.
 Projects getting the most attention are related to Big Data in Amateur Radio:
 
 - [WSPR Analytics] - Exploring [WSPR][] / [WSPRDAEMON][] spots using Big Data Tools ([Scala][], [PySpark], and [Apache Arrow][])
+
+## Home Lab
+
+My current home-lab consists of a 16 core/32 thread virtualization node, and a few smaller 4 core/8 thread AMD V1605B SoC's ([GB-BSRE-1605][]) clusterd with the Type-1 Hypervisor [Proxmox][]. The network stack is fairly simple employing a Dual-WAN failover via [Netgate 3100][] and [pfSense][]. Core distribution is through a [USW-PRO-24 PoE][]. A 10GB aggregation switch ([US-XG-16][]) is used for wiring up storage and virtualization. Several smaller PoE switches power Wireless AP's, cameras, printers, IoT devices, etc. Network storage is [TrueNAS Core][] on a high-speed 14TB ZFS pool. For future storage and backup, I'm looking at the [Synology RS2421][] or the [iX-Systems][] [ix-1212i][], but that could change. 
 
 <!--
 - [JTSDK64 Tools Documentation][] Principal, and current author
