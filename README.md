@@ -14,7 +14,7 @@ I'm an avid supporter of [Open Source Software][] and like working with most any
 
 My current language focus is on [Golang][] as a replacement for console scripts. I like using [Scala][], [Spark][], [PySpark][] and [Apache Arrow][] when playing  with Big Data (there is a lot to learn!). Cloud based tools of interest are centered on [Oracle Cloud Infastructure (OCI)], [GraalVM], [Micronaut], [Kubernetes][], and [Nomad][] using [Docker][] or [LXC][] containers. I've rescently started learning / testing High-Availability discovery and secrets management using [Vault][] and [Consul][].
 
-Projects getting the most attention are related to Big Data in Amateur Radio:
+Coding projects getting the most attention are related to Big Data in Amateur Radio:
 
 - [WSPR Analytics] - Exploring [WSPR][] / [WSPRDAEMON][] spots using Big Data Tools ([Scala][], [PySpark], and [Apache Arrow][])
 
