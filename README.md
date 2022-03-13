@@ -12,7 +12,7 @@ I'm an avid supporter of [Open Source Software][] and like working with most any
 
 ## Development Focus
 
-My current language focus is on [Golang][] as a replacement for console scripts. I like using [Scala][], [Spark][], [PySpark][] and [Apache Arrow][] when playing  with Big Data (there is a lot to learn!). Cloud based tools of interest are centered on [Oracle Cloud Infastructure (OCI)], [GraalVM], [Micronaut], [Kubernetes][], and [Nomad][] using [Docker][] or [LXC][] containers. I've rescently started learning / testing High-Availability discovery and secrets management using [Vault][] and [Consul][].
+My current language focus is on [Terraform][] and [Ansible][] for [Infastructure as Code][]. Cloud based tools of interest are centered on [Oracle Cloud Infastructure (OCI)], and [Nomad][] using [Docker][] or [LXC][] containers. I've rescently started learning / testing High-Availability discovery and secrets management using [Vault][] and [Consul][].
 
 Coding projects getting the most attention are related to Big Data in Amateur Radio:
 
@@ -81,7 +81,9 @@ My current home-lab consists of a 16 core/32 thread virtualization node, and a f
 [Vault]: https://www.vaultproject.io/
 [ix-1212i]: https://www.ixsystems.com/ix-server-family/rackmount-servers/ix-1212i/
 [iX-Systems]: https://www.ixsystems.com/
-
+[Terraform]: https://www.terraform.io/
+[Ansible]: https://www.ansible.com/
+[Infastructure as Code]: https://developer.oracle.com/infrastructure-as-code/
 
 <!--
 **KI7MT/KI7MT** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
