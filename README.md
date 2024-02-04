@@ -20,7 +20,7 @@ Coding projects getting the most attention are related to Big Data in Amateur Ra
 
 ## Home Lab
 
-My current home-lab consists of a 16 core/32 thread virtualization node, and a few smaller 4 core/8 thread AMD V1605B SoC's ([GB-BSRE-1605][]) clusterd with the Type-1 Hypervisor [Proxmox][]. The network stack is fairly simple employing a Dual-WAN failover via [Netgate 3100][] and [pfSense][]. Core distribution is through a [USW-PRO-24 PoE][]. A 10GB aggregation switch ([US-XG-16][]) is used for wiring up storage and virtualization. Several smaller PoE switches power Wireless AP's, cameras, printers, IoT devices, etc. Network storage is [TrueNAS Core][] on a high-speed 14TB ZFS pool. For future storage and backup, I'm looking at the [Synology RS2421][] or the [iX-Systems][] [ix-1212i][], but that could change. 
+My current home-lab consists of a (2) 16 core/32 thread virtualization nodes, and a few smaller 4 core/8 thread AMD V1605B SoC's ([GB-BSRE-1605][]) clusterd with the Type-1 Hypervisor [Proxmox][]. The network stack is fairly simple employing a Dual-WAN failover via [Netgate 3100][] and [pfSense][]. Core distribution is through a [USW-PRO-24 PoE][]. A 10GB aggregation switch ([US-XG-16][]) is used for wiring up storage and virtualization. Several smaller PoE switches power Wireless AP's, cameras, printers, IoT devices, etc. Network storage is [TrueNAS Core][] on a high-speed 14TB ZFS pool. For future storage and backup, I'm looking at the [Synology RS2421][] or the [iX-Systems][] [ix-1212i][], but that could change. 
 
 <!--
 - [JTSDK64 Tools Documentation][] Principal, and current author
