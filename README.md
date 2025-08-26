@@ -21,7 +21,7 @@ Linux / DevOps engineer | Amateur Radio & Big Data enthusiast | Exploring AI Age
 
 ---
 
-## 🌍 About Me
+## About Me
 I’m a long-time Linux user (since the Slackware days) and active supporter of [Open Source Software][].
 - Ubuntu user since 2005 (5.04), Ubuntu Member since ~2013
 - Launchpad Package Maintainer since 2010
