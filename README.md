@@ -63,7 +63,6 @@ This bridges **amateur radio + AI workflows**, enabling safe automation and inte
 ## Selected Projects
 - [WSPR Analytics][] → Big Data exploration of WSPR spots
 - [wspr-ai-lite](https://github.com/KI7MT/wspr-ai-lite) → portable DuckDB + Streamlit with MCP integration
-- [WSJTX UDP REST API][] → Go-based bridge for WSJT-X logs
 
 ---
 
