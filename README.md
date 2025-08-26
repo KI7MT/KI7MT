@@ -53,7 +53,7 @@ This bridges **amateur radio + AI workflows**, enabling safe automation and inte
 
 ## Home Lab
 - 2x 32-Core virtualization nodes
-- 2× 16-core virtualization nodes + AMD V1605B SoCs
+- 2× 8-core virtualization nodes + AMD V1605B SoCs
 - 1x 48TB TrueNAS Storage Server
 - [Proxmox][] hypervisor with clustered VMs/containers
 - Dual-WAN via [pfSense][] + Netgate 3100
