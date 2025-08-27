@@ -1,5 +1,3 @@
-# 👋 Hi, I'm Greg (KI7MT)
-
 Linux / DevOps engineer | Amateur Radio & Big Data enthusiast | Exploring AI Agent (MCP) integrations
 
 ![Linux](https://img.shields.io/badge/Linux-Advanced-teal?style=flat-square)
