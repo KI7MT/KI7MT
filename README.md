@@ -5,8 +5,8 @@ Linux / DevOps engineer | Amateur Radio & Big Data enthusiast | Exploring AI Age
 ![Python](https://img.shields.io/badge/Python-Advanced-teal?style=flat-square)
 ![CSharp](https://img.shields.io/badge/CSharp-Intermediate-ffea00?style=flat-square)
 ![Java](https://img.shields.io/badge/Java-Intermediate-ffea00?style=flat-square)
-![AI-MCP](https://img.shields.io/badge/AI-MCP-Leaning-orange?style=flat-square)
-![AI-Agents](https://img.shields.io/badge/AI-Agents-Learning-orange?style=flat-square)
+![AI-MCP](https://img.shields.io/badge/MCP-Leaning-orange?style=flat-square)
+![AI-Agents](https://img.shields.io/badge/Agents-Learning-orange?style=flat-square)
 
 ## Focus Areas
 
