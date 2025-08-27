@@ -15,9 +15,9 @@ Linux / DevOps engineer | Amateur Radio & Big Data enthusiast | Exploring AI Age
 [![MCP](https://img.shields.io/badge/AI--Agent_Ready-MCP-green?style=flat-square)](https://modelcontextprotocol.io/)
 [![Streamlit](https://img.shields.io/badge/UI-Streamlit-blue?style=flat-square)](https://streamlit.io/)
 [![DuckDB](https://img.shields.io/badge/Database-DuckDB-blue?style=flat-square)](https://duckdb.org/)
-[![Click](https://img.shields.io/badge/CLI-Click-005571?style=flat-square)](https://click.palletsprojects.com/)
-[![Ansible](https://img.shields.io/badge/IaC-Ansible-black?style=flat-square)](https://www.ansible.com/)
-[![Terraform](https://img.shields.io/badge/IaC-Terraform-844FBA?style=flat-square)](https://www.terraform.io/)
+[![Click](https://img.shields.io/badge/CLI-Click-blue?style=flat-square)](https://click.palletsprojects.com/)
+[![Ansible](https://img.shields.io/badge/IaC-Ansible-blue?style=flat-square)](https://www.ansible.com/)
+[![Terraform](https://img.shields.io/badge/IaC-Terraform-blue?style=flat-square)](https://www.terraform.io/)
 
 ---
 
