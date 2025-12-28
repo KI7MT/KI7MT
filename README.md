@@ -29,7 +29,7 @@ I’ve worked across Red Hat, Fedora, CentOS, Arch, Gentoo, and more. In short: 
 
 ---
 
-## 🛰️ Current Focus: The Automated Radio Shack
+## Current Focus: The Automated Radio Shack
 I am bridging **Amateur Radio + AI workflows**, moving beyond static logging toward a modular, "Grand Central Station" architecture for station management.
 
 - **Infrastructure as Code** → [Terraform][] & [Ansible][] with OCI, Nomad, Docker/LXC
@@ -39,7 +39,7 @@ I am bridging **Amateur Radio + AI workflows**, moving beyond static logging tow
 
 ---
 
-## 🤖 Model Context Protocol (MCP) Hub
+## Model Context Protocol (MCP) Hub
 I am the architect of the **[ki7mt-mcp-hub](https://github.com/KI7MT/ki7mt-mcp-hub)** — a unified ecosystem of AI-agent micro-servers for Amateur Radio.
 
 - **[adif-mcp](https://adif-mcp.com)** (`com.adif-mcp.validator`) — The authoritative validator for ADIF 3.1.6 log compliance.
@@ -49,7 +49,7 @@ I am the architect of the **[ki7mt-mcp-hub](https://github.com/KI7MT/ki7mt-mcp-h
 
 ---
 
-## 🛠️ The Tech Stack
+## The Tech Stack
 - **Language/Env**: Python 3.12+, **[uv]** (for zero-config tool deployment)
 - **Engines**: Ollama (Local LLMs), Qwen2.5-Coder (32B/7B)
 - **Data**: DuckDB, ClickHouse, Apache Arrow, FastAPI/Uvicorn
