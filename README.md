@@ -59,8 +59,8 @@ This stack enables safe, contract-driven station automation, allowing AI agents 
 ---
 
 ## Home Lab
-- **M3 AI Workstation**: Mac Studio 96GB (Local LLM Engine)
-- **Linux AI Work Station**: EPYC 7302 128GB
+- **M3 AI Workstation**: Mac Studio 96GB UDM ( Local LLM Engine )
+- **Linux AI Workstation**: EPYC 7302 128GB, NVIDIA 5090
 - **Storage Server**: 5950X TrueNAS 
 - **Virtualization**: [Proxmox][] hypervisor for clustered VMs/containers
 - **Networking**: [US-XG-16][] | [USW-PRO-24 PoE][] | [pfSense][]
