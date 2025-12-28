@@ -1,12 +1,12 @@
-Linux / DevOps engineer | Amateur Radio & Big Data enthusiast | Exploring AI Agent (MCP) integrations
+Linux / DevOps Engineer | Amateur Radio & Big Data Enthusiast | Exploring AI Agent (MCP) Integrations
 
 ![Linux](https://img.shields.io/badge/Linux-Advanced-teal?style=flat-square)
 ![Bash](https://img.shields.io/badge/Bash-Advanced-teal?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-Advanced-teal?style=flat-square)
 ![CSharp](https://img.shields.io/badge/CSharp-Intermediate-ffea00?style=flat-square)
 ![Java](https://img.shields.io/badge/Java-Intermediate-ffea00?style=flat-square)
-![AI-MCP](https://img.shields.io/badge/MCP-Leaning-orange?style=flat-square)
-![AI-Agents](https://img.shields.io/badge/Agents-Learning-orange?style=flat-square)
+![AI-MCP](https://img.shields.io/badge/MCP-Architecting-orange?style=flat-square)
+![AI-Agents](https://img.shields.io/badge/Agents-Building-orange?style=flat-square)
 
 ## Focus Areas
 
@@ -23,9 +23,9 @@ Linux / DevOps engineer | Amateur Radio & Big Data enthusiast | Exploring AI Age
 I’m a long-time Linux user (since the Slackware days) and active supporter of [Open Source Software][].
 - Ubuntu user since 2005 (5.04), Ubuntu Member since ~2013
 - Launchpad Package Maintainer since 2010
-- Daily driver: Ubuntu & Oracle Linux (enterprise), Pop!\_OS for gaming, Alpine for containers
+- Daily driver: Ubuntu & Oracle Linux (enterprise), Pop!_OS for gaming, Alpine for containers
 
-I’ve worked across Red Hat, Fedora, CentOS, Arch, Gentoo, and more. In short: if it’s Unix-y, I’ve probably used it.
+I’ve worked across Red Hat, Fedora, CentOS, Arch, Gentoo, and more. If it’s Unix-y, I’ve probably broken it and fixed it.
 
 ---
 
@@ -40,10 +40,10 @@ I am bridging **Amateur Radio + AI workflows**, moving beyond static logging tow
 ---
 
 ## Model Context Protocol (MCP) Hub
-I am the architect of the **[ki7mt-mcp-hub](https://github.com/KI7MT/ki7mt-mcp-hub)** — a unified ecosystem of AI-agent micro-servers for Amateur Radio.
+Architect of the **[ki7mt-mcp-hub](https://github.com/KI7MT/ki7mt-mcp-hub)** — a unified ecosystem of AI-agent micro-servers for Amateur Radio.
 
 - **[adif-mcp](https://adif-mcp.com)** (`com.adif-mcp.validator`) — The authoritative validator for ADIF 3.1.6 log compliance.
-- **[wspr-mcp](https://ki7mt.io/wspr)** (`io.ki7mt.wspr.researcher`) — Local AI access to gigabytes of propagation archives.
+- **[wspr-mcp](https://ki7mt.io/wspr)** (`io.ki7mt.wspr.researcher`) — Local AI access to gigabytes of propagation archives via DuckDB.
 - **[qrz-mcp](https://ki7mt.io/qrz)** (`io.ki7mt.qrz.lookup`) — Specialized XML Callbook micro-service.
 - **Station Control** → Roadmap includes `io.ki7mt.rig` for Hamlib integration and real-time SFI/K-index monitoring.
 
@@ -59,25 +59,27 @@ This stack enables safe, contract-driven station automation, allowing AI agents 
 ---
 
 ## Home Lab
-- EPYC 7302 128GB Linux AI Work Station
-- Mac Studio 96GB AI Workstation
-- 5950X TrueNAS Storage Server
-- [Proxmox][] hypervisor for clustered VMs/containers
+- **M3 AI Workstation**: Mac Studio 96GB (Local LLM Engine)
+- **Linux AI Work Station**: EPYC 7302 128GB
+- **Storage Server**: 5950X TrueNAS 
+- **Virtualization**: [Proxmox][] hypervisor for clustered VMs/containers
+- **Networking**: [US-XG-16][] | [USW-PRO-24 PoE][] | [pfSense][]
+
 ---
 
 ## Selected Projects
-- [WSPR Analytics][] → Big Data exploration of WSPR spots
-- [wspr-ai-lite](https://github.com/KI7MT/wspr-ai-lite) → portable DuckDB + Streamlit with MCP integration
+- [ki7mt-mcp-hub](https://github.com/KI7MT/ki7mt-mcp-hub) → The central repository for all KI7MT MCP servers.
+- [WSPR Analytics][] → Big Data exploration of WSPR spots using PySpark & Arrow.
+- [wspr-ai-lite](https://github.com/KI7MT/wspr-ai-lite) → Portable DuckDB + Streamlit with MCP integration.
 
 ---
 
 ## Let’s Connect
 - Open for discussions on **Linux, DevOps, Amateur Radio, or AI Agents**
-- Reach me on [GitHub Discussions](https://github.com/KI7MT/wspr-ai-lite/discussions)
+- Reach me on [GitHub Discussions](https://github.com/KI7MT/wspr-ai-lite/discussions) or via **ki7mt.io**
 
 ---
 
-<!-- Links (kept from your original for consistency) -->
 [Open Source Software]: https://opensource.com/resources/what-open-source
 [WSPR Analytics]: https://github.com/KI7MT/wspr-analytics
 [WSPR]: https://www.physics.princeton.edu/pulsar/k1jt/wspr.html
@@ -92,3 +94,4 @@ This stack enables safe, contract-driven station automation, allowing AI agents 
 [USW-PRO-24 PoE]: https://store.ui.com/collections/unifi-network-switching/products/usw-pro-24-poe
 [TrueNAS Core]: https://www.truenas.com/truenas-core/
 [WSJTX UDP REST API]: https://github.com/KI7MT/wsjtx-logapi-go
+[uv]: https://github.com/astral-sh/uv
