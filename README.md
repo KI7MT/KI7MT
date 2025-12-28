@@ -29,35 +29,40 @@ I’ve worked across Red Hat, Fedora, CentOS, Arch, Gentoo, and more. In short: 
 
 ---
 
-## Current Focus
+## 🛰️ Current Focus: The Automated Radio Shack
+I am bridging **Amateur Radio + AI workflows**, moving beyond static logging toward a modular, "Grand Central Station" architecture for station management.
+
 - **Infrastructure as Code** → [Terraform][] & [Ansible][] with OCI, Nomad, Docker/LXC
 - **Distributed Systems** → Vault, Consul, HA setups
-- **Big Data in Amateur Radio**
-  - [wspr-ai-lite](https://github.com/KI7MT/wspr-ai-lite) — lightweight DuckDB + Streamlit UI with MCP agent support
-  - [WSPR Analytics][] (Scala, PySpark, Apache Arrow)
+- **Big Data & Propagation**
+  - [wspr-ai-lite](https://github.com/KI7MT/wspr-ai-lite) — Lightweight DuckDB + Streamlit UI for multi-GB archive analysis.
 
 ---
 
-## MCP & AI Agent Work
-I’m actively building **Model Context Protocol (MCP)**-enabled backends for amateur radio analytics:
+## 🤖 Model Context Protocol (MCP) Hub
+I am the architect of the **[ki7mt-mcp-hub](https://github.com/KI7MT/ki7mt-mcp-hub)** — a unified ecosystem of AI-agent micro-servers for Amateur Radio.
 
-- **[wspr-ai-lite](https://github.com/KI7MT/wspr-ai-lite)** → first MCP-ready WSPR dataset explorer
-- Safe, contract-driven database queries exposed to AI Agents
-- Roadmap includes **ClickHouse**, **FastAPI/Uvicorn**, and agent-driven analytics for propagation research
+- **[adif-mcp](https://adif-mcp.com)** (`com.adif-mcp.validator`) — The authoritative validator for ADIF 3.1.6 log compliance.
+- **[wspr-mcp](https://ki7mt.io/wspr)** (`io.ki7mt.wspr.researcher`) — Local AI access to gigabytes of propagation archives.
+- **[qrz-mcp](https://ki7mt.io/qrz)** (`io.ki7mt.qrz.lookup`) — Specialized XML Callbook micro-service.
+- **Station Control** → Roadmap includes `io.ki7mt.rig` for Hamlib integration and real-time SFI/K-index monitoring.
 
-This bridges **amateur radio + AI workflows**, enabling safe automation and intelligent query interfaces.
+---
+
+## 🛠️ The Tech Stack
+- **Language/Env**: Python 3.12+, **[uv]** (for zero-config tool deployment)
+- **Engines**: Ollama (Local LLMs), Qwen2.5-Coder (32B/7B)
+- **Data**: DuckDB, ClickHouse, Apache Arrow, FastAPI/Uvicorn
+
+This stack enables safe, contract-driven station automation, allowing AI agents to navigate logs and propagation data with high-fidelity precision.
 
 ---
 
 ## Home Lab
-- 2x 16-Core virtualization nodes ( AMD x5950 )
-- 2× 4-core virtualization nodes ( AMD V1605B SoCs )
-- 1x 48TB TrueNAS Storage Server
-- [Proxmox][] hypervisor with clustered VMs/containers
-- Dual-WAN via [pfSense][] + Netgate 3100
-- Networking: [USW-PRO-24 PoE][], [US-XG-16][] aggregation, TrueNAS ZFS storage
-- Lab for container orchestration, monitoring, and WSPR data crunching
-
+- EPYC 7302 128GB Linux AI Work Station
+- Mac Studio 96GB AI Workstation
+- 5950X TrueNAS Storage Server
+- [Proxmox][] hypervisor for clustered VMs/containers
 ---
 
 ## Selected Projects
