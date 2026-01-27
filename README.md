@@ -24,6 +24,7 @@ I’m a long-time Linux user (since the Slackware days) and active supporter of 
 - Ubuntu user since 2005 (5.04), Ubuntu Member since ~2013
 - Launchpad Package Maintainer since 2010
 - Daily driver: Ubuntu & Oracle Linux (enterprise), Pop!_OS for gaming, Alpine for containers
+- AI Stack: Rocky Linux, Ollama, vLLM, Open Web UI, n8n 
 
 I’ve worked across Red Hat, Fedora, CentOS, Arch, Gentoo, and more. If it’s Unix-y, I’ve probably broken it and fixed it.
 
