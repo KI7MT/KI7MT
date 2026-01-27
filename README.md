@@ -60,7 +60,7 @@ This stack enables safe, contract-driven station automation, allowing AI agents 
 
 ## Home Lab
 - **Linux AI**: Threadripper 9975 Pro 128GB, NVIDIA Pro 6000 96GB VRAM ( Local LLM Engine )
-- **Linux AI**: EPYC 7302 128GB, NVIDIA 5080 ( LocalLLM Engine )
+- **Linux AI**: EPYC 7302 128GB, NVIDIA 5080 ( Local LLM Engine )
 - **Mac AI M3 Ultra**: Mac Studio 96GB UDM ( Local LLM Engine )
 - **Storage Server**: 5950X TrueNAS 
 - **Virtualization**: [Proxmox][] hypervisor for clustered VMs/containers
