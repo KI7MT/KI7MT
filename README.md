@@ -14,7 +14,7 @@ Linux / DevOps Engineer | HF Propagation Prediction | Sovereign AI | Amateur Rad
 
 *The logs were speaking for decades, but nobody was listening. Now we're listening.*
 
-[![IONIS](https://img.shields.io/badge/IONIS--AI-Propagation_Prediction-teal?style=flat-square)](https://github.com/IONIS-AI)
+[![IONIS](https://img.shields.io/badge/IONIS--AI-Propagation_Prediction-teal?style=flat-square)](https://ionis-ai.com)
 [![COPR](https://img.shields.io/badge/COPR-ionis--ai-blue?style=flat-square)](https://copr.fedorainfracloud.org/coprs/ki7mt/ionis-ai/)
 [![ham-stats](https://img.shields.io/badge/Live-ham--stats.com-2ea043?style=flat-square)](https://ham-stats.com)
 
