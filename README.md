@@ -10,7 +10,7 @@ Linux / DevOps Engineer | HF Propagation Prediction | Sovereign AI | Amateur Rad
 
 ## Current Focus: IONIS-AI
 
-**[IONIS-AI](https://github.com/IONIS-AI)** (Ionospheric Neural Inference System) — a self-hosted AI system that predicts HF radio propagation from the largest curated amateur radio dataset on Earth. 13+ billion spots. Zero cloud dependencies.
+**[IONIS-AI](https://github.com/IONIS-AI)** (Ionospheric Neural Inference System) — a self-hosted AI system that predicts HF radio propagation from one of the largest curated amateur radio datasets on Earth. 13+ billion spots. Zero cloud dependencies.
 
 *The logs were speaking for decades, but nobody was listening. Now we're listening.*
 
