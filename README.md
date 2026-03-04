@@ -77,12 +77,12 @@ Everything runs on local hardware. No cloud. No subscriptions. No vendor can rev
 
 ## MCP Servers
 
-Architect of the **[ki7mt-mcp-hub](https://github.com/KI7MT/ki7mt-mcp-hub)** — AI-agent micro-servers for Amateur Radio.
+AI-agent micro-servers for Amateur Radio, all available on [PyPI](https://pypi.org/user/KI7MT/).
 
-- **[ionis-mcp](https://github.com/IONIS-AI/ionis-mcp)** — Propagation analytics over 175M+ signatures ([PyPI](https://pypi.org/project/ionis-mcp/), 11 tools incl. live NOAA conditions)
-- **[adif-mcp](https://adif-mcp.com)** — ADIF 3.1.6 validation, parsing, and spec search ([PyPI](https://pypi.org/project/adif-mcp/), 7 tools)
-- **[wspr-mcp](https://ki7mt.io/wspr)** — Local AI access to propagation archives via DuckDB
-- **[qrz-mcp](https://ki7mt.io/qrz)** — Specialized XML Callbook micro-service
+| Server | Tools | What It Does |
+|:-------|:-----:|:-------------|
+| [ionis-mcp](https://github.com/IONIS-AI/ionis-mcp) | 11 | Propagation analytics over 175M+ signatures, live NOAA conditions |
+| [adif-mcp](https://adif-mcp.com) | 7 | ADIF 3.1.6 validation, parsing, and spec search |
 
 ---
 
