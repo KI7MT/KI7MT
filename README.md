@@ -10,7 +10,7 @@ Linux / DevOps Engineer | HF Propagation Prediction | Sovereign AI | Amateur Rad
 
 ## Current Focus: IONIS-AI
 
-**[IONIS-AI](https://github.com/IONIS-AI)** (Ionospheric Neural Inference System) — a self-hosted AI system that predicts HF radio propagation from one of the largest curated amateur radio datasets we are aware of. 13+ billion spots. Zero cloud dependencies.
+**[IONIS-AI](https://github.com/IONIS-AI)** (Ionospheric Neural Inference System) — a self-hosted AI system that predicts HF radio propagation from one of the largest curated amateur radio datasets we are aware of. 14+ billion spots. Zero cloud dependencies.
 
 *The logs were speaking for decades, but nobody was listening. Now we're listening.*
 
@@ -23,24 +23,26 @@ Linux / DevOps Engineer | HF Propagation Prediction | Sovereign AI | Amateur Rad
 | Repo | Language | What It Does |
 |:-----|:---------|:-------------|
 | [ionis-apps](https://github.com/IONIS-AI/ionis-apps) | Go | High-performance data ingesters (22 Mrps) with watermark tracking |
-| [ionis-core](https://github.com/IONIS-AI/ionis-core) | SQL/Shell | 34 ClickHouse DDL schemas, 13 population scripts |
+| [ionis-core](https://github.com/IONIS-AI/ionis-core) | SQL/Shell | 36 ClickHouse DDL schemas, 15 population scripts |
 | [ionis-cuda](https://github.com/IONIS-AI/ionis-cuda) | C++/CUDA | GPU-accelerated signature embedding engine |
 | [ionis-training](https://github.com/IONIS-AI/ionis-training) | Python | PyTorch model training with physics-constrained sidecars |
+| [ionis-mcp](https://github.com/IONIS-AI/ionis-mcp) | Python | MCP server for propagation analytics (11 tools, [PyPI](https://pypi.org/project/ionis-mcp/)) |
+| [ionis-jupyter](https://github.com/IONIS-AI/ionis-jupyter) | Python | Jupyter notebooks for propagation research (10 notebooks, [PyPI](https://pypi.org/project/ionis-jupyter/)) |
 | [ionis-docs](https://github.com/IONIS-AI/ionis-docs) | MkDocs | [Documentation site](https://ionis-ai.github.io/ionis-docs/) |
 
 ### The Data
 
 | Source | Volume | What It Tells Us |
 |:-------|:-------|:-----------------|
-| WSPR | 10.8B spots (18 yrs) | SNR floor — path exists at minimum power |
-| Reverse Beacon Network | 2.18B spots (17 yrs) | Skilled operator layer — CW through the noise |
-| CQ Contest Logs | 195M QSOs | Ceiling — voice-workable at contest power |
+| WSPR | 10.9B spots (18 yrs) | SNR floor — path exists at minimum power |
+| Reverse Beacon Network | 2.26B spots (17 yrs) | Skilled operator layer — CW through the noise |
+| CQ Contest Logs | 234M QSOs | Ceiling — voice-workable at contest power |
 | PSK Reporter | ~26M spots/day (live) | Operational — can a real operator make a contact? |
 | DSCOVR L1 | Solar wind (live) | Predictive — Bz gives 15-45 min lead over Kp |
 
 ### The Model
 
-**IONIS V20** (Production) — Pearson **+0.49** vs VOACAP +0.02. 84% recall on independent live data. 203K params, physics-constrained solar and geomagnetic sidecars. Every watt of inference runs on local hardware.
+**IONIS V22-gamma** (Production) — Pearson **+0.49** vs VOACAP +0.02. 98% recall on independent live data. 207K params, physics-constrained solar and geomagnetic sidecars. Every watt of inference runs on local hardware.
 
 ---
 
@@ -69,7 +71,7 @@ Everything runs on local hardware. No cloud. No subscriptions. No vendor can rev
 
 **Networking**: 10 Gbps DAC point-to-point (Thunderbolt 4 + SFP+ AOC), MTU 9000
 **Storage**: ClickHouse on dedicated NVMe (3.7 TB), ZFS archive pool (7.1 TB mirrored)
-**Data platform**: ClickHouse (13B+ rows), PyTorch (MPS), Go ingesters (ch-go native protocol)
+**Data platform**: ClickHouse (14B+ rows), PyTorch (MPS), Go ingesters (ch-go native protocol)
 
 ---
 
@@ -77,7 +79,8 @@ Everything runs on local hardware. No cloud. No subscriptions. No vendor can rev
 
 Architect of the **[ki7mt-mcp-hub](https://github.com/KI7MT/ki7mt-mcp-hub)** — AI-agent micro-servers for Amateur Radio.
 
-- **[adif-mcp](https://adif-mcp.com)** — The authoritative validator for ADIF 3.1.6 log compliance
+- **[ionis-mcp](https://github.com/IONIS-AI/ionis-mcp)** — Propagation analytics over 175M+ signatures ([PyPI](https://pypi.org/project/ionis-mcp/), 11 tools incl. live NOAA conditions)
+- **[adif-mcp](https://adif-mcp.com)** — ADIF 3.1.6 validation, parsing, and spec search ([PyPI](https://pypi.org/project/adif-mcp/), 7 tools)
 - **[wspr-mcp](https://ki7mt.io/wspr)** — Local AI access to propagation archives via DuckDB
 - **[qrz-mcp](https://ki7mt.io/qrz)** — Specialized XML Callbook micro-service
 
