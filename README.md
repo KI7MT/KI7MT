@@ -8,6 +8,37 @@ Linux / DevOps Engineer | HF Propagation Prediction | Sovereign AI | Amateur Rad
 ![ClickHouse](https://img.shields.io/badge/ClickHouse-Advanced-teal?style=flat-square)
 ![PyTorch](https://img.shields.io/badge/PyTorch-Intermediate-ffea00?style=flat-square)
 
+---
+
+## About Me
+
+Long-time Linux user (since the Slackware days) and active supporter of [Open Source Software][].
+
+- Ubuntu user since 2005 (5.04), Ubuntu Member since ~2013
+- RHEL/Fedora COPR packaging since ~2015
+- Launchpad package maintainer since 2010
+- Worked across Red Hat, Fedora, CentOS, Rocky, Arch, Gentoo, Alpine, and more
+
+If it's Unix-y, I've probably broken it and fixed it.
+
+---
+
+## Sovereign AI Lab
+
+Everything runs on local hardware. No cloud. No subscriptions. No vendor can revoke access.
+
+| Host | Role | Specs |
+|:-----|:-----|:------|
+| **Threadripper 9975WX** | Control node | 32C/64T Zen 5, 128 GB DDR5, RTX PRO 6000 96 GB VRAM, Rocky Linux 9.7 |
+| **Mac Studio M3 Ultra** | Training node | 96 GB unified memory, MPS backend for PyTorch |
+| **EPYC 7302P** | Build/replica node | 16C/32T, 128 GB DDR4 ECC, Proxmox hypervisor |
+
+**Networking**: 10 Gbps DAC point-to-point (Thunderbolt 4 + SFP+ AOC), MTU 9000
+**Storage**: ClickHouse on dedicated NVMe (3.7 TB), ZFS archive pool (7.1 TB mirrored)
+**Data platform**: ClickHouse (14B+ rows), PyTorch (MPS), Go ingesters (ch-go native protocol)
+
+---
+
 ## Current Focus: IONIS-AI
 
 **[IONIS-AI](https://github.com/IONIS-AI)** (Ionospheric Neural Inference System) — a self-hosted AI system that predicts HF radio propagation from one of the largest curated amateur radio datasets we are aware of. 14+ billion spots. Zero cloud dependencies.
@@ -43,35 +74,6 @@ Linux / DevOps Engineer | HF Propagation Prediction | Sovereign AI | Amateur Rad
 ### The Model
 
 **IONIS V22-gamma** (Production) — Pearson **+0.49** vs VOACAP +0.02. 98% recall on independent live data. 207K params, physics-constrained solar and geomagnetic sidecars. Every watt of inference runs on local hardware.
-
----
-
-## About Me
-
-Long-time Linux user (since the Slackware days) and active supporter of [Open Source Software][].
-
-- Ubuntu user since 2005 (5.04), Ubuntu Member since ~2013
-- RHEL/Fedora COPR packaging since ~2015
-- Launchpad package maintainer since 2010
-- Worked across Red Hat, Fedora, CentOS, Rocky, Arch, Gentoo, Alpine, and more
-
-If it's Unix-y, I've probably broken it and fixed it.
-
----
-
-## Sovereign AI Lab
-
-Everything runs on local hardware. No cloud. No subscriptions. No vendor can revoke access.
-
-| Host | Role | Specs |
-|:-----|:-----|:------|
-| **Threadripper 9975WX** | Control node | 32C/64T Zen 5, 128 GB DDR5, RTX PRO 6000 96 GB VRAM, Rocky Linux 9.7 |
-| **Mac Studio M3 Ultra** | Training node | 96 GB unified memory, MPS backend for PyTorch |
-| **EPYC 7302P** | Build/replica node | 16C/32T, 128 GB DDR4 ECC, Proxmox hypervisor |
-
-**Networking**: 10 Gbps DAC point-to-point (Thunderbolt 4 + SFP+ AOC), MTU 9000
-**Storage**: ClickHouse on dedicated NVMe (3.7 TB), ZFS archive pool (7.1 TB mirrored)
-**Data platform**: ClickHouse (14B+ rows), PyTorch (MPS), Go ingesters (ch-go native protocol)
 
 ---
 
