@@ -8,8 +8,6 @@ Linux / DevOps Engineer | HF Propagation Prediction | Sovereign AI | Amateur Rad
 ![ClickHouse](https://img.shields.io/badge/ClickHouse-Advanced-teal?style=flat-square)
 ![PyTorch](https://img.shields.io/badge/PyTorch-Intermediate-ffea00?style=flat-square)
 
----
-
 ## About Me
 
 Long-time Linux user (since the Slackware days) and active supporter of [Open Source Software][].
