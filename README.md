@@ -39,7 +39,7 @@ Everything runs on local hardware. No cloud. No subscriptions. No vendor can rev
 
 ## Current Focus: QSO Graph
 
-**[QSO Graph](https://github.com/qso-graph)**: open amateur radio software, built to work together. A free desktop app for operators, MCP servers that give AI agents access to the services hams use every day, and IONIS-AI propagation prediction.
+**[QSO Graph](https://github.com/qso-graph)** brings all of it together: research, AI/ML, propagation prediction and operating tools, for working the whole amateur radio ecosystem. A free desktop app for operators, MCP servers for the services hams use every day, and IONIS-AI propagation prediction.
 
 [![qso-graph.io](https://img.shields.io/badge/qso--graph.io-Docs-teal?style=flat-square)](https://qso-graph.io)
 [![Desktop](https://img.shields.io/github/v/release/qso-graph/qso-graph-desktop?label=QSO%20Graph%20Desktop&style=flat-square&color=2ea043)](https://github.com/qso-graph/qso-graph-desktop/releases/latest)
